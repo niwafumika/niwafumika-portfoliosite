@@ -1,0 +1,1095 @@
+@media(max-width:1190px){
+    body{
+    letter-spacing: 0.5px;
+    }
+    .header-container{
+        width:auto;
+        margin:0px 10px;
+    }
+    .header-left h1{
+        font-size: 12px;
+        margin-top: 42px;
+    }
+    .header-btn{
+        height:40px;
+        line-height: 40px;
+        font-size: 12px;
+        padding:0px 35px;
+        margin-top: 17px;
+    }
+    .header-btn-responsive{
+        display: none;
+    }
+    .top h2{
+        margin-top: 105px;
+        line-height: 45px;
+        font-size:24px;
+    }
+    .top h3{
+        font-size:16px;
+    }
+    .section-1{
+        height: 461px;
+    }
+    .section-1 h2{
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+    .section-1 h3{
+        font-size: 14px;
+        padding:3px;
+        margin-top: 13px;
+    }
+    .section-1-btn{
+        height:77px;
+        width:85%;
+        padding:0px;
+        line-height:77px;
+        font-size:18px;
+        margin:10px auto 0px;
+    }
+    .section-1 p{
+        margin-top: 33px;
+        font-size: 18px;
+    }
+    .section-title{
+        display: flex;
+        width:95%;
+    }
+    .section-title h2{
+        font-size: 24px;
+    }
+    .section-2 p{
+        font-size:16px;
+        line-height: 25px;
+    }
+    .strong{
+        height: 15px;
+    }
+    .section-3 h3{
+        font-size: 16px;
+        margin-top: 45px;
+    }
+    .section-3-skillcontain{
+        display: block;
+        width:95%;
+        margin:30px 0px 70px;
+    }
+    .section-3 h4{
+        font-size: 16px;
+    }
+    .section-4{
+        height:820px;
+        background-position: center;
+    }
+    .section-4 h2{
+        font-size:24px;
+        margin-bottom: 5px;
+    }
+    .section-4 p{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .section-4-steps{
+        width:38%;
+        flex-direction: column;
+    }
+    .section-4-step{
+        width: 100%;
+    }
+    .section-4-step h3{
+        width:80%;
+        font-size:14px;
+        line-height: 23px;
+    }
+    .section-4-step h4{
+        font-size: 12px;
+    }
+    .section-4-step p{
+        font-size:14px;
+    }
+    .section-5,.section-12{
+        height: 130px;
+    }
+    .section-5 p,.section-12 p{
+        font-size:16px;
+        line-height: 25px;
+    }
+    .section-6{
+        height: auto;
+    }
+    .section-6 h2{
+        font-size: 24px;
+    }
+    .small-kana{
+        font-size:14px;
+    }
+    .section-6 h3{
+        font-size:16px;
+    }
+    .section-6-items{
+        margin: 50px 0px 0px 0px;
+        max-width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+    .section-6-items img{
+        width:25%;
+        margin:0px;
+        padding:20px;
+        box-sizing: border-box;
+    }
+    .section-6 p{
+        margin: 25px 0px 60px;
+        font-size: 14px;
+    }
+    .section-7{
+        height: auto;
+    }
+    .small{
+        font-size: 14px;
+    }
+    .section-7-merits{
+        flex-wrap: wrap;
+    }
+    .section-7-merit img{
+        width: 100%;
+        height: 180px;
+    }
+    .section-7-merit h3{
+        font-size:16px;
+        color: #EBB94D;
+        line-height: 40px;
+    }
+    .section-7-merit h4{
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 26px;
+    }
+    .section-7-supportcontent{
+        width:95%;
+        height:245px;
+    }
+    .section-7-supportcontent h4{
+        font-size: 24px;
+    }
+    .section-7-supportcontent h5{
+        font-size:16px;
+        margin-top: 20px;
+    }
+    .section-7 p{
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 22px;
+        margin: 35px 0px;
+    }
+    .section-8{
+        height:auto;
+    }
+    .section-8 h2{
+        font-size:24px;
+    }
+    .section-8 h3{
+        font-size:14px;
+        margin-bottom: 50px;
+    }
+    .section-8-members{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .section-8-member{
+        width: 100%;
+        margin:160px 0px 45px;
+        height:auto;
+    }
+    .section-8-member h4{
+        font-size:14px;
+    }
+    .section-8-member p{
+        width:80%;
+        font-size:14px;
+        line-height: 22px;
+        margin-bottom: 35px;
+    }
+    .section-9-title,.section-16-title{
+        width:90%;
+    }
+    .section-9-title h2{
+        font-size: 18px;
+    }
+    .section-10{
+        height:auto;
+    }
+    .section-10 h2{
+        font-size: 24px;
+    }
+    .section-10 h3{
+        font-size: 14px;
+        margin-top: 23px;
+    }
+    .section-10 h4{
+        font-size: 12px;
+    }
+    .section-10-message{
+        width:95%;
+        margin-bottom: 60px;
+    }
+    .section-10-message img{
+        width: 31%;
+    }
+    .section-11{
+        height: auto;
+    }
+    .section-11 h2{
+        font-size:24px;
+    }
+    .section-11 h3{
+        font-size:14px;
+    }
+    .section-11-items{
+        flex-direction: column;
+        margin: 60px;
+    }
+    .section-11-item{
+        margin:8px;
+        width: 650px;
+    }
+    .section-11-item tr th{
+        font-size: 16px;
+    }
+    .section-11-item tr td{
+        font-size:14px;
+        width:100%;
+        line-height: 47px;
+    }
+    .section-13{
+        height:auto;
+    }
+    .section-13 h2{
+        font-size: 24px;
+        margin-top: 50px;
+    }
+    .flow-img{
+        width:93%;
+    }
+    .section-13-processes{
+        margin:20px;
+    }
+    .section-13-process{
+        width: 87%;
+    }
+    .heavy-letter{
+        font-size:14px;
+        line-height: 22px;
+    }
+    .fine-letter{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .conect-img{
+        width:55%;
+    }
+    .section-14{
+        height:auto;
+    }
+    .section-14-content{
+        margin-left: 60px;
+    }
+    .section-14 h2{
+        font-size: 22px;
+        margin-top:62px;
+    }
+    .section-14 p{
+        font-size: 12px;
+        margin-top:15px;
+    }
+    .section-14 ul{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .section-14 h3{
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+    .section-15{
+        height: auto;
+    }
+    .section-15 h2{
+        font-size:24px;
+        margin-top:65px;
+    }
+    .section-15 h3{
+        font-size:14px;
+        margin-top: 55px;
+    }
+    .section-15 h4{
+        font-size:24px;
+        width:380px;
+        top:235px;
+    }
+    .section-15-points{
+        width:80%;
+        height:auto;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 125px;
+        padding:40px;
+        margin-bottom: 40px;
+    }
+    .section-15-point{
+        margin:13px;
+    }
+    .section-16{
+        height: 478px;
+    }
+    .section-16-title h2{
+        font-size: 24px;
+    }
+    .section-16 h3{
+        font-size:24px;
+        margin-top:60px
+    }
+    .section-16 p{
+        font-size:16px;
+        line-height: 26px;
+    }
+    .section-17{
+        height:auto;
+    }
+    .section-17 h2{
+        font-size:24px;
+    }
+    .section-17 h3{
+        font-size:16px;
+        margin-top: 45px;
+    }
+    .section-17-content{
+        flex-direction: column;
+        align-items: center;
+        width:97%;
+        margin-top: 65px;
+    }
+    .section-17-content img{
+        width:97%;
+        margin:auto;
+    }
+    .section-17-content-right{
+        text-align: left;
+        line-height: 22px;
+        margin:40px 15px 100px;
+    }
+    .section-17-content-right p{
+        margin-top: 5px;
+    }
+    .section-18 h2{
+        font-size: 24px;
+    }
+    .section-18 h3{
+        font-size:14px;
+    }
+    .section-18 form{
+        width:70%;
+    }
+    .section-19-questions{
+        width: 87%;
+    }
+    .section-19 h2{
+        font-size: 24px;
+    }
+    .section-19 dt{
+        height: 58px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .section-19 dt h3{
+        font-size:16px;
+    }
+    .section-19 dd{
+        font-size: 14px;
+        line-height: 22px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    .arrow-icon{
+        height: 6px;
+        width: 6px;
+        border-right: 4px solid #E5E5E5;
+        border-bottom: 4px solid #E5E5E5;
+        margin-right: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .br-responsive-pc{
+        display: none;
+    }
+    .br-responsive{
+        display: block;
+    }
+    .header-container{
+        height: 62px;
+        margin:0px;
+    }
+    .header-left{
+        flex-direction: column-reverse;
+        margin-left: 5px;
+    }
+    .header-logo{
+        width:90px;
+        margin: 5px;
+    }
+    .header-left h1{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-btn-responsive{
+        display: block;
+        height:62px;
+        width:80px;
+        font-size: 12px;
+        padding:0px;
+        margin: 0px;
+        background-color: #DB6B64;
+    }
+    .header-btn-responsive img{
+        display: block;
+        margin:10px auto 3px;
+        width: 20px;
+    }
+    .header-btn-responsive a{
+        display: block;
+        text-align: center;
+        font-weight: normal;
+    }
+    .header-btn-responsive a:hover{
+        text-decoration: underline;
+    }
+    .header-behind{
+        height: 62px;
+    }
+    .top{
+        background-image: url(../image/mainsp.jpg);
+        height:310px;
+    }
+    .top h2{
+        margin-top: 23px;
+        line-height: 29px;
+        font-size:18px;
+    }
+    .top-logo{
+        margin-top:20px;
+    }
+    .top h3{
+        font-size:15px;
+        margin-top:40px;
+    }
+    .section-1{
+        height: 510px;
+    }
+    .section-1 h2{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    .section-1 h3{
+        font-size: 13px;
+        padding:4px;
+    }
+    .section-1-btn{
+        height:64px;
+        width:85%;
+        padding:15px;
+        line-height:32px;
+        font-size:20px;
+        margin:27px auto 0px;
+    }
+    .section-1 p{
+        margin-top: 25px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .section-1-share{
+        margin:20px auto;
+    }
+    .section-2{
+        height:655px;
+        background-size: contain;
+        background-position: bottom;
+    }
+    .section-title{
+        margin-top:30px;
+    }
+    .section-title-left{
+        height:25px;
+        width:25px;
+    }
+    .section-title h2{
+        font-size: 18px;
+        margin: 20px 30px;
+    }
+    .section-title-right{
+        height:25px;
+        width:25px;
+    }
+    .section-2 p{
+        font-size:15px;
+        line-height: 24px;
+    }
+    .about-icon{
+        font-size:12px;
+        height:60px;
+        width:60px;
+        line-height: 60px;
+        top: 625px;
+    }
+    .section-3 .section-title{
+        margin-top:60px;
+    }
+    .section-3 h3{
+        font-size: 15px;
+        margin-top: 30px;
+        line-height: 24px;
+    }
+    .section-3-skillcontain{
+        display: block;
+        width:93%;
+        margin:30px 0px 70px;
+    }
+    .section-3 h4{
+        font-size: 15px;
+        line-height: 24px;
+        margin-top:10px
+    }
+    .section-3-skills{
+        margin: 5px 25px 15px;
+    }
+    .section-3-skill{
+        width:110px;
+        margin: 5px 0px;
+    }
+    .section-3-skill img{
+        margin:10px;
+        height: 30px;
+    }
+    .section-3-skill p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .section-4{
+        height:607px;
+        background-image: url(../image/aboutsecondbgsp.jpg);
+        background-size: cover;
+    }
+    .section-4 h2{
+        font-size:18px;
+        line-height: 20px;
+        margin-top: 50px;
+    }
+    .section-4 p{
+        font-size: 13px;
+        line-height: 21px;
+        margin-top: 13px;
+    }
+    .section-4-steps{
+        width:93%;
+        margin-top: 20px;
+    }
+    .section-4-step{
+        width: 100%;
+        height: 106px;
+        margin: 8px 0px;
+    }
+    .section-4-step h3{
+        font-size:12px;
+        line-height: 19px;
+        margin: 15px auto 0px;
+    }
+    .section-4-step h4{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .section-4-step p{
+        font-size:12px;
+        margin-top: 5px;
+    }
+    .section-5{
+        height: 100px;
+    }
+    .section-5 p{
+        font-size:12px;
+        line-height: 19px;
+        margin-top: 20px;
+    }
+    .section-6 h2{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .small-kana{
+        font-size:12px;
+    }
+    .section-6 h3{
+        font-size:15px;
+        line-height: 24px;
+    }
+    .section-6-items{
+        margin: 13px 0px 0px 0px;
+        width: 80%;
+    }
+    .section-6-items img{
+        padding:5px;
+    }
+    .section-6 p{
+        margin: 18px 0px 30px;
+        font-size: 12px;
+    }
+    .section-7{
+        height: auto;
+    }
+    .section-7 .section-title h2{
+        line-height: 20px;
+    }
+    .small{
+        display: block;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .section-7-merit-img{
+        width: 100%;
+        height: 120px;
+    }
+    .merit-img-1{
+        background-image: url(../image/learnfromfreelancer.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .merit-img-2{
+        background-image: url(../image/learnfromprojects.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .merit-img-3{
+        background-image: url(../image/actuallyfree.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .section-7-merit{
+        width: 95%;
+        margin:15px 0px 4px;
+    }
+    .section-7-merit img{
+        display: none;
+    }
+    .section-7-merit h3{
+        font-size:15px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .section-7-merit h4{
+        font-size: 12px;
+        line-height: 19px;
+        margin:5px 25px;
+    }
+    .section-7 p{
+        font-size: 12px;
+        line-height: 19px;
+        margin: 20px 10px 30px;
+    }
+    .section-7-supportcontent{
+        width:92%;
+        height:175px;
+    }
+    .section-7-supportcontent h4{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .section-7-supportcontent h5{
+        font-size:15px;
+        margin-top: 20px;
+        line-height: 24px;
+    }
+    .section-7-supportcontent P{
+        font-size: 10px;
+        line-height: 16px;
+        margin: 10px 0px;
+    }
+    .section-8{
+        background-image: url(../image/teacherbgsp.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .section-8 h2{
+        font-size:18px;
+        margin-top:70px
+    }
+    .section-8 h3{
+        font-size:12px;
+        line-height: 19px;
+        margin:50px 0px 10px;
+    }
+    .section-8-members{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .section-8-member{
+        margin:120px 0px 0px;
+        font-weight: normal;
+    }
+    .section-8-member img{
+        width: 120px;
+        top:-90px;
+    }
+    .section-8-member h4{
+        font-size:12px;
+        line-height: 25px;
+    }
+    .section-8-member p{
+        width:95%;
+        font-size:12px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+    .section-9{
+        height:210px;
+    }
+    .qanda-icon{
+        width:60px;
+        height:60px;
+        line-height: 60px;
+        font-size:12px;
+        margin-top: 20px;
+    }
+    .section-9-title,.section-16-title{
+        width:95%;
+    }
+    .section-9-title-left,.section-16-title-left{
+        height:25px;
+        width:25px;
+    }
+    .section-9-title-right,.section-16-title-right{
+        height:25px;
+        width:25px;
+    }
+    .section-9-title h2{
+        font-size: 14px;
+    }
+    .triangle-icon{
+        border-top: 15px solid #EBB94D;
+        border-left: 15px solid #fff;
+        border-right:15px solid #fff
+    }
+    .section-10 h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .section-10 h3{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .section-10 h4{
+        line-height: 19px;
+        margin: 30px 0px 30px;
+    }
+    .section-10-message{
+        width: 97%;
+        margin: 0px auto 40px;
+    }
+    .section-10-message img{
+        width: 30%;
+    }
+    .section-10-message p{
+        margin:0px 0px 0px 10px;
+    }
+    .section-11 h2{
+        font-size:18px;
+        margin-top: 50px;
+    }
+    .section-11 h3{
+        font-size:12px;
+    }
+    .section-11-items{
+        align-items: center;
+        margin: 25px 0px 33px;
+        width: 100%;
+    }
+    .section-11-item{
+        margin:8px 0px;
+        width: 95%;
+    }
+    .section-11-item tr th{
+        font-size: 15px;
+        width: 100%;
+    }
+    .section-11-item tr td{
+        font-size:12px;
+        width: 100%;
+        line-height: 40px;
+        height: 40px;
+    }
+    .section-12{
+        height: auto;
+    }
+    .section-12 p{
+        font-size:15px;
+        margin: 19px 0px;
+    }
+    .section-13 h2{
+        font-size: 18px;
+    }
+    .flow-img{
+        display: none;
+    }
+    .fa{
+        font-size:15px;
+    }
+    .section-13-processes{
+        margin:38px 0px 50px;
+        width: 95%;
+    }
+    .section-13-process{
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+        border-radius: 5px;
+        margin:2px 0px;
+    }
+    .section-13-process-title{
+        flex-direction: row;
+        align-items: center;
+        margin: 10px;
+        width: 100%;
+    }
+    .section-13-process-title:hover{
+        text-decoration: underline;
+    }
+    .section-13-process-title img{
+        margin:0px 15px;
+        width:35px;
+        height: 36px;
+    }
+    .section-13-process-title h3{
+        font-size:15px;
+        line-height: 17px;
+        width: 250px;
+        margin: 0px;
+    }
+    .section-13-process-content{
+        margin: 0px 15px 20px;
+        display: none;
+    }
+    .section-13-arrow-icon{
+        height: 7px;
+        width: 7px;
+        border-right: 4px solid #000;
+        border-bottom: 4px solid #000;
+        transform: rotate(45deg);
+        margin-left:auto;
+        margin-right: 15px;
+    }
+    .open{
+        transform: rotate(-135deg);
+    }
+    .heavy-letter{
+        font-size:12px;
+        line-height: 12px;
+    }
+    .fine-letter{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .conect-img{
+        display: none;
+    }
+    .section-14{
+        background-image: url(../image/bangkokbgsp.jpg);
+        height:auto;
+    }
+    .section-14-content{
+        margin-left: 35px;
+    }
+    .section-14 h2{
+        font-size: 24px;
+        margin:43px auto 0px 120px;
+    }
+    .section-14 p{
+        font-size: 12px;
+        line-height: 19px;
+        margin-top:15px;
+    }
+    .section-14 ul{
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .section-14 h3{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .section-15 h2{
+        font-size:18px;
+        margin-top:30px;
+    }
+    .section-15 h3{
+        font-size:12px;
+        line-height: 19px;
+        margin-top: 35px;
+    }
+    .section-15 h4{
+        font-size:18px;
+        line-height: 29px;
+        width:230px;
+        top:180px;
+    }
+    .section-15-points{
+        height:auto;
+        width: 95%;
+        margin-top: 70px;
+        padding:40px 0px 15px;
+        margin-bottom: 20px;
+    }
+    .section-15-point{
+        background-color: #F9C23B;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        margin:13px;
+    }
+    .section-15-point h5{
+        font-size:12px;
+        background-color: #fff;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        line-height: 60px;
+        margin: 0px 20px 0px 70px;
+    }
+    .section-15-point p{
+        display: none;
+    }
+    .section-15-points .p-responsive{
+        display: block;
+        text-align: left;
+        width: 70%;
+        color:#fff;
+        font-size:12px;
+        line-height: 19px;
+        margin: 5px 10px;
+    }
+    .section-16{
+        background-image: url(../image/specialdetailsp.jpg);
+        height: 488px;
+    }
+    .section-16-title h2{
+        font-size: 18px;
+    }
+    .section-16 h3{
+        font-size:18px;
+        line-height: 29px;
+        margin-top:40px
+    }
+    .section-16 p{
+        font-size:12px;
+        line-height: 19px;
+        margin-top:20px;
+    }
+    .section-17{
+        height:auto;
+    }
+    .section-17 h2{
+        font-size:18px;
+        margin-top: 50px;
+    }
+    .section-17 h3{
+        font-size:15px;
+        line-height: 24px;
+        margin-top: 45px;
+    }
+    .section-17-content{
+        margin-top: 15px;
+    }
+    .section-17-content-right{
+        margin:10px 15px 40px;
+    }
+    .section-17-content-right p{
+        margin-top: 5px;
+    }
+    .section-18 h2{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .section-18 h3{
+        font-size:12px;
+    }
+    .section-18 form{
+        width:95%;
+    }
+    .submit-btn{
+        margin-bottom: 52px;
+    }
+    .section-19-questions{
+        width: 95%;
+        margin: 30px 0px 40px;
+    }
+    .section-19 h2{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .section-19 dt{
+        font-size: 15px;
+        height: 37px;
+    }
+    .section-19 dt h3{
+        font-size:15px;
+    }
+    .section-19 dd{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .arrow-icon{
+        margin-right: 15px;
+    }
+    .section-20{
+        height: 138px;
+    }
+    .section-20 h2{
+        margin-top: 20px;
+    }
+    .section-20 h4{
+        margin-top: 40px;
+    }
+    .scroll-btn{
+        height: 50px;
+        width: 45px;
+        right: 10px;
+        bottom: 20px;
+    }
+    .scroll-btn div{
+        height:7px;
+        width:7px;
+        border-top: 3px solid #333333;
+        border-right: 3px solid #333333;
+        margin:23px auto;
+    }
+}

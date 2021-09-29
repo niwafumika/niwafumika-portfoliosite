@@ -1,0 +1,29 @@
+@media(max-width:1000px){
+    .lesson{
+        width:50%;
+    }
+    .lesson p{
+        padding-bottom: 20px;
+    }
+    .page-main{
+        padding-bottom: 40px;
+    }
+}
+@media(max-width:670px){
+    .lesson{
+        width:100%;
+    }
+    .btn{
+        width: 50%;
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+    .kesitai{
+        display: none;
+    }
+    #menu-btn{
+        display: block;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+}

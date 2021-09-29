@@ -1,0 +1,116 @@
+header{
+    height:90px;
+}
+.header-left{
+    font-size:30px;
+    line-height: 90px;
+    padding-left:220px;
+    font-weight: bold;
+    float: left;
+}
+.header-right{
+    display:flex;
+    justify-content:flex-end;
+    padding-right:200px;
+}
+.header-menu{
+    color:#000;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 90px;
+    text-decoration-line: none;
+    padding:0px 30px;
+}
+.header-menu:hover{
+    background-color: rgb(223, 243, 243);
+}
+.top-wrapper{
+    display: none;
+}
+.title{
+    width:100%;
+}
+.deitoratoha{
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin:60px
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.deitoratoha-1{
+    display: flex;
+    justify-content: center;
+}
+.deitoratoha-2{
+    width:37%;
+}
+.about{
+    width:100%;
+    box-sizing: border-box;
+    padding-right:15px;
+}
+.ko-suitirann{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.lessons{
+    display: flex;
+    justify-content: center;
+}
+.lesson{
+    text-align: left;
+}
+.lesson img{
+    width:380px;
+    margin:0px 30px;
+}
+.lesson p{
+    text-align: left;
+    margin-left: 30px;
+}
+.otoiawase{
+    text-align: center;
+    margin-bottom: 150px;
+}
+input{
+    width: 800px;
+    height:65px;
+    border:3px solid #bfbfbf;
+    border-radius: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(110, 110, 110);
+}
+.start-btn{
+    display: inline-block;
+    line-height: 100px;
+    background-color: rgb(236, 105, 82);
+    height: 100px;
+    width:530px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.start-btn:hover{
+    background-color: rgb(252, 160, 107);
+}
+footer{
+    margin:0px auto;
+    width:75%;
+    height:120px;
+    border-top: 1px solid #bfbfbf;
+}
+.copyright{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 20px;
+}
