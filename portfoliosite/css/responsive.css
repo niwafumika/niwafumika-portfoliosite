@@ -1,0 +1,323 @@
+@media(max-width:1030px){
+    body{
+        align-items: center;
+    }
+    header{
+        background-color: #3F5526;
+    }
+    .top{
+        height: 600px;
+    }
+    .section-title{
+        width: 200px;
+    }
+    .about-me{
+        width: 85%;
+    }
+    .about-me-content img{
+        width: 30%;
+        margin: 0px;
+        padding: 0px 5px 0px 10px;
+        box-sizing: border-box;
+    }
+    table{
+        width: 60%;
+        box-sizing: border-box;
+    }
+    .table-name{
+        width: 20%;
+        font-size: 12px;
+    }
+    .table-data{
+        width: 80%;
+        font-size: 14px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service .inside{
+        flex-direction: column;
+        width: 100%;
+    }
+    .portfolio .section-contents,.service .section-contents,.contact .section-contents{
+        width: 90%;
+        margin: 0px 0px 50px;
+    }
+    .portfolio,.service,.contact{
+        width: 85%;
+        border: 5px solid #333;
+        margin: 50px 0px 50px 0px;
+    }
+    .inside{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .portfolio .section-title,.contact .section-title,.service .section-title{
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+    }
+    .section-subtitle{
+        width: 100%;
+        margin: 100px auto 50px;
+    }
+    .section-contents{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .portfolio .items{
+        margin: 50px 0px 0px;
+    }
+    .skills img{
+        width: 50px;
+        margin: 0px 15px;
+    }
+    .service .item{
+        width: 37%;
+    }
+    .service-icon-outline{
+        width: 65px;
+        height: 65px;
+    }
+    .service-icon{
+        width: 35px;
+    }
+    form{
+        margin: 50px 0px 30px;
+    }
+    .twitter-icon{
+        margin: 30px 0px 50px;
+    }
+    footer{
+        font-size: 12px;
+    }
+    
+    /* fade表示 */
+
+    @keyframes fadeRAnime{
+        from {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+        }
+    }
+    @keyframes fadeLAnime{
+        from {
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+        }
+    }
+    @keyframes flipLeftTopAnime{
+        from {
+            transform: translate(-10px,10px) rotate(-5deg);
+            opacity: 0;
+        }
+        to {
+            transform: translate(0,0) rotate(0deg);
+            opacity: 1;
+        }
+    }
+}
+
+@media(max-width:700px){
+    .header-nav{
+        display: none;
+    }
+    .open-nav{
+        display: flex;
+        position: absolute;
+        top: 60px;
+        background-color: rgba(63, 85, 38, 0.9);
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation-name: fadeInAnime;
+        animation-duration: .4s;
+        }
+        @keyframes fadeInAnime{
+        from {
+            opacity: 0;
+        }
+    }
+    .hamburger{
+        position: relative;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin: 0px 15px;
+    }
+    .hamburger span{
+        display: inline-block;
+        background-color: #eee;
+        position: absolute;
+        left: 12px;
+        width: 25px;
+        height: 2px;
+        transition: all 0.4s;
+    }
+    .hamburger .first-border{
+        top: 13px;
+    }
+    .hamburger .second-border{
+        top: 24px;
+    }
+    .hamburger .third-border{
+        top: 35px;
+    }
+    .open .first-border{
+        transform: rotate(45deg);
+        top: 24px;
+        left: 10px;
+    }
+    .open .second-border{
+        opacity: 0;
+    }
+    .open .third-border{
+        transform: rotate(-45deg);
+        top: 24px;
+        left: 10px;
+    }
+    .open span{
+        width: 30px;
+    }
+    .responsive-br{
+        display: block;
+    }
+    .section-title{
+        height: 50px;
+        width: 150px;
+    }
+    .section-title h2{
+        font-size: 18px;
+        line-height: 50px;
+    }
+    .about-me-content{
+        margin: 80px auto;
+        flex-direction: column;
+    }
+    .about-me-content img{
+        width: 140px;
+        margin-right: 0%;
+        margin: 0px 0px 30px;
+    }
+    table{
+        width: 70%;
+        box-sizing: border-box;
+    }
+    .table-name{
+        width: 30%;
+        font-size: 12px;
+    }
+    .table-data{
+        font-size: 12px;
+    }
+    .section-subtitle{
+        line-height: 30px;
+        font-size: 13px;
+        margin: 80px auto 50px;
+    }
+    .portfolio .items{
+        flex-direction: column;
+        margin: 30px 0px 0px;
+    }
+    .portfolio .item{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .portfolio .item img{
+        width: 25vw;
+        height: 28vw;
+        margin-top: 30px;
+    }
+    .portfolio .item h4{
+        font-size: 15px;
+    }
+    .portfolio .item h5{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .portfolio .item p{
+        margin: 15px 0px 30px;
+        font-size: 15px;
+    }
+    .more-btn{
+        font-size: 20px;
+        margin: 30px auto;
+    }
+    .service h4{
+        width: 30%;
+        font-size: 20px;
+        margin: 0px auto 20px;
+    }
+    .service p{
+        font-size: 12px;
+    }
+    .service .concept{
+        margin-top: 50px;
+    }
+    .skills img{
+        width: 38px;
+        margin: 0px 0px;
+    }
+    .price h5{
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    .service .item{
+        width: 40%;
+        margin: 0px 0px 50px;
+    }
+    .service-icon-outline{
+        width: 40px;
+        height: 40px;
+    }
+    .service-icon{
+        width: 20px;
+    }
+    form p{
+        font-size: 12px;
+    }
+    input{
+        height: 20px;
+    }
+    .input-space{
+        border: 1px solid #aaa;
+    }
+    .input-space::placeholder{
+        line-height: 20px;
+        padding: 0px 15px;
+        font-size: 12px;
+    }
+    .submit-btn{
+        font-size: 12px;
+    }
+    .twitter-icon{
+        width: 40px;
+        margin: 40px 0px 50px;
+    }
+    footer{
+        font-size: 10px;
+    }
+}

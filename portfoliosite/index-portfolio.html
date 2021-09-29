@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NiwaFumika portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div><a href="index-home.html"><img class="header-logo" src="image/wani-icon.png" alt="niwa"></a></div>
+        <ul>
+            <li class="pf-headertitle">portfolio</li>
+        </ul>
+    </header>
+    <div class="pf-page">
+        <div class="pf-contents">
+            <div class="items">
+                <div class="item flipLeftTopTrigger">
+                    <a href=../mosyacoding/Progate/index.html　target="_blank"><img src="image/progate.png" alt="サイトイメージ"></a>
+                    <h4>Progate</h4>
+                    <h5>2021/07製作<br>摸写コーディング</h5>
+                    <p>閲覧は<a href=../mosyacoding/Progate/index.html target="_blank">こちら</a>から</p>
+                </div>
+                <div class="item flipLeftTopTrigger">
+                    <a href=../mosyacoding/デンタルクリニック/home.html target="_blank"><img src="image/dentalclinic.png" alt="サイトイメージ"></a>
+                    <h4>デンタルクリニック</h4>
+                    <h5>2021/07製作<br>摸写コーディング</h5>
+                    <p>閲覧は<a href=../mosyacoding/デンタルクリニック/home.html target="_blank">こちら</a>から</p>
+                </div>
+                <div class="item flipLeftTopTrigger">
+                    <a href=../mosyacoding/iSara/index.html target="_blank"><img src="image/isara.png" alt="サイトイメージ"></a>
+                    <h4>iSara</h4>
+                    <h5>2021/07製作<br>摸写コーディング</h5>
+                    <p>閲覧は<a href=../mosyacoding/iSara/index.html target="_blank">こちら</a>から</p>
+                </div>
+                <div class="item flipLeftTopTrigger">
+                    <a href=../mosyacoding/蒼乃建設/index.html target="_blank"><img src="image/aonokensetsu.png" alt="サイトイメージ"></a>
+                    <h4>蒼乃建設</h4>
+                    <h5>2021/07製作<br>摸写コーディング</h5>
+                    <p>閲覧は<a href=../mosyacoding/蒼乃建設/index.html target="_blank">こちら</a>から</p>
+                </div>
+                <div class="item flipLeftTopTrigger">
+                    <a href=../mosyacoding/デイトラ/index.html target="_blank"><img src="image/deitora.png" alt="サイトイメージ"></a>
+                    <h4>デイトラ</h4>
+                    <h5>2021/07製作<br>摸写コーディング</h5>
+                    <p>閲覧は<a href=../mosyacoding/デイトラ/index.html target="_blank">こちら</a>から</p>
+                </div>
+                <div class="item flipLeftTopTrigger">
+                    <a href=image/coconala.png target="_blank"><img src="image/coconala.png" alt="サイトイメージ"></a>
+                    <h4>ココナラバナー</h4>
+                    <h5>2021/09製作<br>デザイン</h5>
+                    <p>閲覧は<a href=image/coconala.png target="_blank">こちら</a>から</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="copyright">copyright ©︎2021 niwafumika All Rights Reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        function fadeAnime(){
+            $('.flipLeftTopTrigger').each(function(){
+                var elemPos = $(this).offset().top-50;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+                if (scroll >= elemPos - windowHeight){
+                $(this).addClass('flipLeftTop');
+                }else{
+                $(this).removeClass('flipLeftTop');
+                }
+            });
+        }
+        $(window).scroll(function (){
+            fadeAnime();
+        });
+        $(window).on('load', function(){
+            fadeAnime();
+        });
+    </script>
+</body>
+</html>

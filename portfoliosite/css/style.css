@@ -1,0 +1,533 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "M PLUS 1p"; 
+    color: #333;
+    width: 100%;
+}
+
+/* ヘッダー */
+
+header{
+    background-color: #3F5526;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    width: 50px;
+    margin-left: 20px;
+    transition: all 0.4s;
+}
+.header-logo:hover{
+    opacity: 0.6;
+}
+.header-nav{
+    display: flex;
+    margin-right: 20px;
+    color: #eee;
+}
+.header-nav li{
+    height: 60px;
+    line-height: 60px;
+}
+.header-nav li a{
+    display: inline-block;
+    height: 100%;
+    padding: 0px 30px;
+    color: #eee;
+    transition: all 0.4s;
+}
+.header-nav li a:hover{
+    background-color: #eee;
+    color: #3F5526;
+}
+.hamburger{
+    display: none;
+}
+.responsive-br{
+    display: none;
+}
+
+/* トップ画面 */
+
+.top{
+    height: 700px;
+    width: 100%;
+    background-image: url(../image/top-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-content img{
+    width: 100px;
+}
+.top-content h1{
+    line-height: 20px;
+}
+
+/* 共通指定 */
+
+.section-title{
+    background-color: #BCA447;
+    height: 60px;
+    position: absolute;
+    width: 15%;
+    z-index: 9;
+}
+.section-title h2{
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.container{
+    margin: 0px 30px;
+}
+section{
+    margin: 30px 0px;
+    position: relative;
+}
+.portfolio .section-title,.contact .section-title{
+    top: 50px;
+    left: 18%;
+}
+.service .section-title{
+    top: 50px;
+    right: 18%;
+}
+.inside{
+    display: flex;
+}
+.section-subtitle{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+}
+.section-contents{
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* 個別指定 */
+
+.about-me{
+    margin: 50px;
+    border: 5px solid #333;
+    position: relative;
+}
+.about-me .section-title{
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.about-me-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+.about-me-content img{
+    display: block;
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+table{
+    width: 60%;
+    box-sizing: border-box;
+}
+table tr{
+    border: 10px solid#fff;
+}
+.table-name{
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    background-color: #eee;
+    border: 10px solid#fff;
+}
+.table-data{
+    font-size: 16px;
+    line-height: 30px;
+}
+.portfolio .section-contents{
+    background-image: url(../image/profil-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.portfolio .items{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px 0px;
+    width: 100%;
+}
+.portfolio .item{
+    text-align: center;
+    background-color: rgba(110, 115, 110, 0.3);
+    width: 33%;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.portfolio .item img{
+    width: 80%;
+    height: 17vw;
+    border: 2px solid #333;
+    margin-top: 50px;
+}
+.portfolio .item h4{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.portfolio .item h5{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.portfolio .item p{
+    margin: 20px 0px 50px;
+    font-size: 15px;
+}
+.portfolio .item p a{
+    color: #ddd;
+    text-decoration: underline;
+}
+.more-btn{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #BCA447;
+    margin: 0px 20px 50px 0px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: relative;
+    transition: all 0.4s;
+}
+.more-btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    height: 4px;
+    background:#BCA447;
+    transition: all 0.4s;
+    transform: scale(0, 1);
+    transform-origin: center top;
+}
+.more-btn:hover{
+    color:#BCA447;
+    background-color: rgba(255, 255, 255, 0.0);
+}
+.more-btn:hover::after {
+    transform: scale(1, 1);
+}
+.service .inside{
+    flex-direction: row-reverse;
+}
+.service .section-contents{
+    background-image: url(../image/service-bg.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.service h4{
+    width: 20%;
+    font-size: 20px;
+    margin: 10px auto 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+.service p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+.service .concept{
+    margin-top: 100px;
+    width: 100%;
+}
+.service .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.skills img{
+    width: 70px;
+    margin: 0px 20px;
+}
+.service .price{
+    margin-top: 50px;
+    width: 100%;
+}
+.price h5{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.service .items{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.service .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 0px 0px 100px;
+}
+.service-icon-outline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+.service-icon{
+    width: 50px;
+}
+.contact .section-contents{
+    background-image: url(../image/contact-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.alart{
+    background-color: rgba(110, 115, 110, 0.9);
+    position: absolute;
+    z-index: 8;
+    top: 60px;
+    display: n;
+    width: 75%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alart-text{
+    width: 70%;
+    color: #eee;
+    line-height: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: 100px 0px 50px;
+}
+form p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px;
+}
+textarea{
+    width: 100%;
+    height: 60px;
+    margin: 5px 0px;
+}
+.input-space{
+    border: 2px solid #aaa;
+    border-radius: 1px;
+}
+.input-space::placeholder{
+    color: #aaa;
+    line-height: 30px;
+    padding: 0px 20px;
+}
+.submit-btn{
+    width: 30%;
+    height: 40px;
+    margin: 30px auto 0px;
+    background-color: rgba(110, 115, 110, 0.7);
+    border: none;
+    border-radius: 3px;
+}
+.submit-btn:hover{
+    background-color: rgba(110, 115, 110, 1);
+    cursor: pointer;
+}
+.twitter-icon{
+    width: 50px;
+    margin: 50px 0px 100px;
+    transition: all 0.4s;
+}
+.twitter-icon:hover{
+    opacity: 0.6;
+}
+footer{
+    background-color: #3F5526;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    color: #eee;
+}
+
+.pf-headertitle{
+    margin-right: 50vw;
+    transform: translateX(50%);
+    color: #eee;
+    font-size: 20px;
+}
+.pf-page .pf-contents{
+    width: 85%;
+    border: 5px solid #333;
+    margin: 100px auto 40px;
+}
+.pf-page .items{
+    background-image: url(../image/profil-bg.jpg);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    padding: 30px 0px;
+    width: 93%;
+}
+.pf-page .item{
+    text-align: center;
+    background-color: rgba(110, 115, 110, 0.3);
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.pf-page .item img{
+    width: 170px;
+    height: 190px;
+    border: 2px solid #333;
+    margin-top: 50px;
+}
+.pf-page .item h4{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.pf-page .item h5{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.pf-page .item p{
+    margin: 15px 0px 30px;
+    font-size: 12px;
+}
+.pf-page .item p a{
+    color: #ddd;
+    text-decoration: underline;
+}
+
+/* fade表示 */
+
+.fadeIn-top {
+    animation-name: fadeInAnime-top;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+@keyframes fadeInAnime-top{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadeR-about-me {
+    animation-name: fadeRAnime-about-me;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+@keyframes fadeRAnime-about-me{
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+    }
+}
+.fadeR {
+    animation-name: fadeRAnime;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+@keyframes fadeRAnime{
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.fadeRTrigger{
+    opacity: 0;
+}
+.fadeL {
+    animation-name: fadeLAnime;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+@keyframes fadeLAnime{
+    from {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.fadeLTrigger{
+    opacity: 0;
+}
+.flipLeftTop{
+    animation-name:flipLeftTopAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+@keyframes flipLeftTopAnime{
+    from {
+        transform: translate(-30px,50px) rotate(-5deg);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0,0) rotate(0deg);
+        opacity: 1;
+    }
+}
+
