@@ -441,6 +441,10 @@ footer{
     color: #ddd;
     text-decoration: underline;
 }
+.pf-page .item .annotation{
+    font-size: 5px;
+    margin: 5px;
+}
 
 /* fade表示 */
 
